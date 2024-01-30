@@ -22,7 +22,7 @@ title: Laboratoire de BQ
 email: Guillaume.Blanchet@USherbrooke.ca
 description: >- # this means to ignore newlines until "baseurl:"
   SUPER DESCRIPTION TROP WOW
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/quantitative-biology-blanchet/" # the subpath of your site, e.g. /blog
 url: "https://lepagejeremi.github.io/quantitative-biology-blanchet/" # the base hostname & protocol for your site, e.g. http://example.com
 
 #twitter_username: jekyllrb
