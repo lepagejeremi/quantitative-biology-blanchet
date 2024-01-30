@@ -40,10 +40,6 @@ plugins:
 # Build settings
 theme: minima
 
-languages:
-  - name: "Français"
-    key: "fr"
-
 #scholar:
   #style: assets/csl/cleanStyle.csl
   #locale: en
@@ -63,13 +59,13 @@ scholar:
   replace_strings: true
   join_strings:    true
 
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
+  #details_dir:    bibliography
+  #details_layout: bibtex.html
+  #details_link:   Details
 
 
   source: _bibliography
-  bibliography: biblio.bib
+  bibliography: bibliography.bib
   bibliography_template: bib
 
   replace_strings: true
