@@ -49,6 +49,9 @@ languages:
   #repository: assets/pdf
   #sort_by: year
   #order: reverse
+  
+  
+  
 scholar:
   style: apa
   locale: fr
@@ -56,18 +59,12 @@ scholar:
   sort_by: none
   order: ascending
 
-  source: ./_bibliography
-  bibliography: biblio.bib
-  bibliography_template: "{{reference}}"
-
   replace_strings: true
   join_strings:    true
 
   #details_dir:    bibliography
   #details_layout: bibtex.html
   #details_link:   Details
-
-  query: "@*"
 
 
   source: _bibliography
