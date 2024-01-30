@@ -51,7 +51,7 @@ languages:
   #order: reverse
 scholar:
   style: apa
-  locale: en
+  locale: fr
 
   sort_by: none
   order: ascending
@@ -63,15 +63,15 @@ scholar:
   replace_strings: true
   join_strings:    true
 
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
+  #details_dir:    bibliography
+  #details_layout: bibtex.html
+  #details_link:   Details
 
   query: "@*"
 
 
   source: _bibliography
-  bibliography: labo.bib
+  bibliography: biblio.bib
   bibliography_template: bib
 
   replace_strings: true
