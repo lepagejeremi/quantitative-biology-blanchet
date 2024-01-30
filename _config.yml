@@ -23,7 +23,7 @@ email: Guillaume.Blanchet@USherbrooke.ca
 description: >- # this means to ignore newlines until "baseurl:"
   SUPER DESCRIPTION TROP WOW
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://biologie-quantitative-blanchet" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  guiblanchet
 
@@ -31,7 +31,27 @@ github_username:  guiblanchet
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
+scholar:
+  style: assets/csl/cleanStyle.csl
+  locale: en
+  repository: assets/pdf
+  sort_by: year
+  order: reverse
+
+  source: _bibliography
+  bibliography: labo.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+
+  bibliography_list_tag: p
+  bibliography_item_tag: p
+
+  query: "@*"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
