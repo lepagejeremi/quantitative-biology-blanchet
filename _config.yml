@@ -31,7 +31,9 @@ github_username:  guiblanchet
 github: guiblanchet
 repository: quantitative-biology-website
 
-gems: ['jekyll/scholar']
+markdown: kramdown
+kramdown:
+  input: GFM
 
 # Configure third-party libraries.
 plugins:
