@@ -1,0 +1,19 @@
+Revient-il a la vie?
+#Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   _layouts/default.html
+#	new file:   _layouts/home.html
+#	new file:   _site/404.html
+#	new file:   _site/about/index.html
+#	new file:   _site/assets/main.css
+#	new file:   _site/assets/main.css.map
+#	new file:   _site/assets/minima-social-icons.svg
+#	new file:   _site/feed.xml
+#	new file:   _site/index.html
+#	new file:   _site/jekyll/update/2024/01/30/welcome-to-jekyll.html
+#
