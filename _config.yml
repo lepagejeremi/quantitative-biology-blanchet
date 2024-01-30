@@ -68,13 +68,10 @@ scholar:
 
   source: ./_bibliography
   bibliography: bibliography.bib
-  bibliography_template: bub
+  bibliography_template: "{{reference}}"
 
   replace_strings: true
   join_strings:    true
-
-  bibliography_list_tag: p
-  bibliography_item_tag: p
   
   details_dir:    bibliography
   details_layout: bibtex.html
