@@ -42,8 +42,6 @@ theme: minima
 languages:
   - name: "Français"
     key: "fr"
-  - name: "English"
-    key: "en"
 
 scholar:
   style: assets/csl/cleanStyle.csl

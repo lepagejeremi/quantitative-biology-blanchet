@@ -3,7 +3,6 @@ layout: default
 title:  "Laboratoire de Biologie Quantitative"
 date:   2024-01-30 09:38:19 -0500
 categories: jekyll update
-permalink: quantitative-biology-blanchet/index/
 ---
 Salut Marie-Amélie, merci de regarder mon site
 
