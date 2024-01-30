@@ -23,16 +23,21 @@ email: Guillaume.Blanchet@USherbrooke.ca
 description: >- # this means to ignore newlines until "baseurl:"
   SUPER DESCRIPTION TROP WOW
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://biologie-quantitative-blanchet" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lepagejeremi.github.io/quantitative-biology-blanchet/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  guiblanchet
 
+
+github: ielab
+repository: ielab-web-template
+
+# Configure third-party libraries.
+plugins:
+  - jekyll-feed # RSS feeds.
+  - jekyll-redirect-from # "hot-link" pages.
+  
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
 
 scholar:
   style: assets/csl/cleanStyle.csl
