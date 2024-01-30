@@ -54,7 +54,7 @@ languages:
   
 scholar:
   style: apa
-  locale: fr
+  locale: en
 
   sort_by: none
   order: ascending
