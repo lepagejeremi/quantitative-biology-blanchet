@@ -35,6 +35,7 @@ repository: quantitative-biology-website
 plugins:
   - jekyll-feed # RSS feeds.
   - jekyll-redirect-from # "hot-link" pages.
+  - jekyll-scholar
   
 # Build settings
 theme: minima
