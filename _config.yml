@@ -28,9 +28,8 @@ url: "https://lepagejeremi.github.io/quantitative-biology-blanchet/" # the base 
 #twitter_username: jekyllrb
 github_username:  guiblanchet
 
-
-github: ielab
-repository: ielab-web-template
+github: guiblanchet
+repository: quantitative-biology-website
 
 # Configure third-party libraries.
 plugins:
