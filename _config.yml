@@ -32,7 +32,7 @@ github: guiblanchet
 repository: quantitative-biology-website
 
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-basically-basic
 
 
 # Configure third-party libraries.
