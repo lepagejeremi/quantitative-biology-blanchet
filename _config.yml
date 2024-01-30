@@ -43,12 +43,32 @@ languages:
   - name: "Français"
     key: "fr"
 
+#scholar:
+  #style: assets/csl/cleanStyle.csl
+  #locale: en
+  #repository: assets/pdf
+  #sort_by: year
+  #order: reverse
 scholar:
-  style: assets/csl/cleanStyle.csl
+  style: apa
   locale: en
-  repository: assets/pdf
-  sort_by: year
-  order: reverse
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: biblio.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+
 
   source: _bibliography
   bibliography: labo.bib
