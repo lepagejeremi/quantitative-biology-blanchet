@@ -6,4 +6,4 @@ permalink: quantitative-biology-blanchet/publications/
 
 ## Published articles
 --------------------------------------------------------------------------------
-{% bibliography %}
+

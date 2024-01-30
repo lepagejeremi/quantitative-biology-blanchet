@@ -33,9 +33,7 @@ repository: quantitative-biology-website
 
 markdown: kramdown
 theme: minima
-gems:
-  jekyll-feed
-  jekyll-scholar
+
 
 # Configure third-party libraries.
 plugins:
