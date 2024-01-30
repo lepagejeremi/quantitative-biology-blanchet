@@ -38,7 +38,7 @@ plugins:
   - jekyll-scholar
   
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 
 #scholar:
   #style: assets/csl/cleanStyle.csl
