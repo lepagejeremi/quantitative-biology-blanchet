@@ -53,7 +53,7 @@ plugins:
   #sort_by: year
   #order: reverse
   
-plugins_dir: [jekyll-scholar]
+#plugins_dir: [jekyll-scholar]
   
 scholar:
   style: apa
